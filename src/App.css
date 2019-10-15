@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-color {
+  background: #000046;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.landing-grid {
+  background: #000046;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  overflow: hidden;
+}
+
+.avatar-img {
+  margin-top: 5em;
+  margin-bottom: 5em;
+  width: 25em;
+  border-radius: 50%;
+}
+
+.banner-text {
+  background: #000;
+  opacity: .8;
+  width: 90%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.banner-text > h1 {
+  font-size: 70px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.banner-text > hr {
+  border-top: 5px double #fff;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text > p {
+  font-size: 20px;
+  color: #fff;
+  padding: 15px;
+}
+
+.social-medias {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 50%;
+  margin: auto;
+}
+
+.social-medias i {
+  color: #fff;
+  font-size: 5em;
+  padding: 8px;
+}
+
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 40px;
+}
+
+.contact-body {
+  margin: auto;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  background: white;
+  color: black;
+  margin-bottom: 20px; 
+}
+
+.contact-grid__about {
+  list-style-type: none;
+  text-align: center;
+}
+
+.contact-grid__about li {
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.contact-grid h2 {
+  font-family: 'Anton', sans-serif;
+}
+
+.contact-grid p {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list {
+  margin-left: 20%;
+}
+
+.contact-list i {
+  font-size: 100%;
+  padding-right: 10px;
+}
+
+#location {
+  padding-right: 15px;
+}
+
+.about-right-col {
+  color: #fff;
+  background: #27221F;
+  padding: 2em;
+}
+
+@media only screen and (max-width: 1024px) {
+  .social-medias i {
+    font-size: 2em;
+    padding: 4px;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  .avatar-img {
+    width: 15em;
+  }
+  .banner-text h1 {
+    font-size: 45px;
+  }
+}
+
+@media only screen and (max-width: 799px) {
+  .contact-info {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .contact-info {
+    font-size: 9px;
+  }
+}
