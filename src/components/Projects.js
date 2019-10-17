@@ -15,6 +15,7 @@ const Projects = () => (
       <CardTitle style={{ color: '#fff', height: '200px', background: 'url(https://upload.wikimedia.org/wikipedia/commons/6/6e/What-should-I-do-now.jpg) center / cover' }}></CardTitle>
       <CardActions border>
         <a href="https://github.com/gixxera/DecisionHelper-app-react" rel="noopener noreferrer" target="_blank"><Button colored>GitHub</Button></a>
+        <a href="" rel="noopener noreferrer" target="_blank"><Button colored>Live link</Button></a>
       </CardActions>
     </Card>
 
@@ -22,6 +23,7 @@ const Projects = () => (
       <CardTitle style={{ color: '#fff', height: '200px', background: 'url(http://instantpot.us/wp-content/uploads/2017/07/white-ipad-horizontal-held-by-hands-recipe-page-660x336.png) center / cover' }}></CardTitle>
       <CardActions border>
         <a href="https://github.com/gixxera/recipe-app-react" rel="noopener noreferrer" target="_blank"><Button colored>GitHub</Button></a>
+        <a href="" rel="noopener noreferrer" target="_blank"><Button colored>Live link</Button></a>
       </CardActions>
     </Card>
 

@@ -1,0 +1,67 @@
+.header-color {
+  background: #000046;  /* fallback for old browsers */  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#1CB5E0), to(#000046));
+  background: -o-linear-gradient(left, #1CB5E0, #000046);
+  background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.landing-grid {
+  background: #000046;  /* fallback for old browsers */  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#1CB5E0), to(#000046));
+  background: -o-linear-gradient(left, #1CB5E0, #000046);
+  background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  overflow: hidden;
+}
+
+.avatar-img {
+  margin-top: 5em;
+  margin-bottom: 5em;
+  width: 25em;
+  border-radius: 50%;
+}
+
+.banner-text {
+  background: #000;
+  opacity: .8;
+  width: 90%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.banner-text > h1 {
+  font-size: 70px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.banner-text > hr {
+  border-top: 5px double #fff;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text > p {
+  font-size: 20px;
+  color: #fff;
+  padding: 15px;
+}
+
+.social-medias {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 50%;
+  margin: auto;
+}
+
+.social-medias i {
+  color: #fff;
+  font-size: 5em;
+  padding: 8px;
+}

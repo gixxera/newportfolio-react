@@ -1,0 +1,27 @@
+@media only screen and (max-width: 1024px) {
+  .social-medias i {
+    font-size: 2em;
+    padding: 4px;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  .avatar-img {
+    width: 15em;
+  }
+  .banner-text h1 {
+    font-size: 45px;
+  }
+}
+
+@media only screen and (max-width: 799px) {
+  .contact-info {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .contact-info {
+    font-size: 9px;
+  }
+}
