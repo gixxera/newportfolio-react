@@ -4,3 +4,23 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+.mdl-navigation__link {
+  font-size: 20px !important;
+}
+
+.mdl-navigation__link:hover {
+  color: #000046 !important;
+}
+
+.mdl-layout-title {
+  padding: 22px 0;
+}
+
+.mdl-layout-title a:hover {
+  color: #1CB5E0 !important;
+}
+
+.mdl-layout__header--scroll .mdl-layout__header-row  {
+  background: linear-gradient(to right, #000046, #1CB5E0 );
+}

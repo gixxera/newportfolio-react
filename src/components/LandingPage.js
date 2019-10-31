@@ -9,7 +9,7 @@ const LandingPage = () => (
         <div className="banner-text">
           <h1>Web Developer</h1>
           <hr />
-          <p>JavaScript | React | HTML | CSS | Node.js | Express</p>
+          <p>JavaScript | React | HTML | CSS | Node.js</p>
           <p className="social-medias">
 
             <a href="https://www.linkedin.com/in/milen-minchev-0049a213b" rel="noopener noreferrer" target="_blank">
